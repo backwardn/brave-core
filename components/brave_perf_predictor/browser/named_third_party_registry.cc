@@ -15,7 +15,6 @@
 #include "brave/components/brave_perf_predictor/browser/bandwidth_linreg_parameters.h"
 #include "components/grit/brave_components_resources.h"
 #include "net/base/registry_controlled_domains/registry_controlled_domain.h"
-#include "third_party/re2/src/re2/re2.h"
 #include "ui/base/resource/resource_bundle.h"
 #include "url/gurl.h"
 
