@@ -1,0 +1,12 @@
+diff --git a/third_party/blink/renderer/core/frame/reporting_observer.cc b/third_party/blink/renderer/core/frame/reporting_observer.cc
+index a296b0485a8009406b5c415cb9954ac30ff2069c..c4cab74800b725255b974d1466316df89d63b444 100644
+--- a/third_party/blink/renderer/core/frame/reporting_observer.cc
++++ b/third_party/blink/renderer/core/frame/reporting_observer.cc
+@@ -45,6 +45,7 @@ void ReportingObserver::ReportToCallback() {
+ }
+ 
+ void ReportingObserver::QueueReport(Report* report) {
++  return;
+   if (!ObservedType(report->type()))
+     return;
+ 
